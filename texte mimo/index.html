@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mg texte</title>
+    <style>
+        /* Resetando o estilo padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos do body */
+        body {
+            background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente moderno */
+            font-family: 'Arial', sans-serif;
+            color: #fff; /* Cor do texto branca */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilo do título h1 */
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: fadeIn 2s ease-in-out;
+            margin-bottom: 20px; /* Espaçamento abaixo do título */
+        }
+
+        /* Animação de fade-in para o título */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Estilo do parágrafo */
+        p {
+            font-size: 1.25rem;
+            margin: 20px 0;
+            line-height: 1.5;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Estilo da imagem */
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+        }
+
+        /* Estilo do botão */
+        .btn {
+            background-color: #2575fc;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Efeito ao passar o mouse sobre o botão */
+        .btn:hover {
+            background-color: #6a11cb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao mg texte!</h1>
+
+    <p>Este é um exemplo de como você pode tornar o seu site mais moderno, com um design simples, mas eficaz. Aqui você pode colocar qualquer tipo de conteúdo, como imagens, textos e botões interativos para engajar seus visitantes.</p>
+
+    <img src="https://via.placeholder.com/400" alt="Imagem de exemplo">
+
+    <p>Explore mais sobre como criar páginas com design atraente e interatividade utilizando HTML e CSS. Vamos melhorar a experiência do usuário!</p>
+
+    <button class="btn" onclick="alert('Obrigado por visitar!')">Clique Aqui</button>
+</body>
+</html>
